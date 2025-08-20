@@ -15,16 +15,16 @@ A Python package that highlights the chaotic behavoiur for the logistic map unde
   - seaborn==0.12.2
 
 ### INSTALLATION
-1. Clone the repository:
-   git clone https://github.com/hb84ffm/logistic_map.git
+1. Clone the repository:<br>
+   git clone https://github.com/hb84ffm/logistic_map.git<br>
    cd logistic_map
 
-3. Create & activate your virtual environment:
-       python3 -m venv venv
-       source venv/bin/activate      # On Mac/Linux
+3. Create & activate your virtual environment:<br>
+       python3 -m venv venv<br>
+       source venv/bin/activate      # On Mac/Linux<br>
        venv\Scripts\activate         # On Windows
 
-4. Install dependencies:
+4. Install dependencies:<br>
        pip install -r requirements.txt
 
 ### USAGE
