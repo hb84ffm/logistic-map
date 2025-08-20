@@ -16,15 +16,15 @@ A Python package that highlights the chaotic behavoiur for the logistic map unde
 
 ### INSTALLATION
 1. Clone the repository:
-       git clone https://github.com/hb84ffm/logistic_map.git
-       cd logistic_map
+   git clone https://github.com/hb84ffm/logistic_map.git
+   cd logistic_map
 
-2. Create & activate your virtual environment:
+3. Create & activate your virtual environment:
        python3 -m venv venv
        source venv/bin/activate      # On Mac/Linux
        venv\Scripts\activate         # On Windows
 
-3. Install dependencies:
+4. Install dependencies:
        pip install -r requirements.txt
 
 ### USAGE
