@@ -1,9 +1,9 @@
 # logistic_map
-A Python package that highlights the chaotic behavoiur for the logistic map under different values for r
+A Python package that highlights the chaotic behavoiur for the logistic map under different values for $r$
 
 ### FEATURES
-- Simulates trajectories of the recursion x_n+1=x_nr(1-x_n) for different values of r
-- Provides a sidebar where user can state values for r_start,r_end, stepsize and startvalue x_0
+- Simulates trajectories of the recursion $x_n+1=x_nr(1-x_n)$ for different values of $r$
+- Provides a sidebar where user can state values for r_start,r_end, stepsize and startvalue $x_0$
 - Visualizes trajectories of the orbits and the variation chart
 
 ### REQUIREMENTS
