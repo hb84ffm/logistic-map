@@ -7,7 +7,7 @@ class LogisticMap:
     def __init__(self, 
                  r_start, 
                  r_final, 
-                 discretization, 
+                 nr_of_points, 
                  steps, 
                  x_0,
                  placeholder_orbit, 
@@ -16,14 +16,13 @@ class LogisticMap:
         
         self.r_start = r_start
         self.r_final = r_final
-        self.discretization = discretization
+        self.nr_of_points = nr_of_points
         self.steps = steps
         self.x_0 = x_0
         self.placeholder_orbit = placeholder_orbit
         self.placeholder_divergence = placeholder_divergence
         self.delay = delay
-        self.r_values = np.arange(r_start, r_final + discretization, discretization)
-        self.r_values = self.r_values[self.r_values <= r_final]
+        self.r_values = np.linspace(r_start,r_final, nr_of_points)
 
     def compute_orbit(self, r):
         """ implements the recursion"""
@@ -43,7 +42,7 @@ class LogisticMap:
         ax1.plot(range(self.steps), x, marker='.', linewidth=0.5, color="#130153")
         ax1.set_xlim(-0.5, self.steps + 0.5)
         ax1.set_ylim(-0.05, 1.05)
-        ax1.set_xlabel("Iterations")
+        ax1.set_xlabel(r"Iterations per $r$")
         ax1.set_ylabel(r'$x_n$')
         ax1.set_title(f"Orbit for $r = {r:.3f}$")
         ax1.grid(False)
@@ -62,7 +61,7 @@ class LogisticMap:
             ymax = 0.1
 
         ax2.set_ylim(-0.05, ymax)
-        ax2.set_xlabel("Iterations")
+        ax2.set_xlabel(r"Iterations per $r$")
         ax2.set_ylabel(r"$|x_{n+1} - x_n|$")
         ax2.set_title(f"Variation for $r = {r:.3f}$")
         ax2.grid(False)
