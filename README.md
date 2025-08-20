@@ -36,10 +36,10 @@ A Python package that highlights the chaotic behavoiur for the logistic map unde
 
 <pre>logistic_map/
 ├─── __init__.py
-├─── app.py                    # main app that rns in browser
+├─── app.py                    # main app that runs the simulation in the browser
 ├─── simulate/
      ├─── __init__.py
-     ├─── simulate             # Module that calculates all trajectories of the dynamical system</pre>
+     ├─── simulate             # Module that calculates all orbit-trajectories of the dynamical system</pre>
 
 ### EXAMPLE WORKFLOW
 Gif soon to come!
