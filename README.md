@@ -8,7 +8,7 @@ A Python package that highlights the chaotic behavoiur for the logistic map unde
 
 ### REQUIREMENTS
 - Python 3.11+ (tested with 3.11.9)
-- Required dependencies (see requirements.txt for details):
+- Required dependencies (see requirements.txt for details):<br>
     streamlit==1.24.1
     numpy==1.24.3
     matplotlib==3.7.1
