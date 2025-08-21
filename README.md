@@ -1,3 +1,6 @@
+![app_use](https://github.com/user-attachments/assets/c0d6632f-e67b-45b9-afd4-d9ec78efa9c2)
+
+
 # logistic_map
 A Python package that highlights the chaotic behavoiur for the logistic map under different values for $r$
 
