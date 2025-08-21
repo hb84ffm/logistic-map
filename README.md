@@ -1,7 +1,7 @@
 # logistic_map
 A Python package that highlights the chaotic behavoiur for the logistic map under different values for $r$
 
-![app_use](https://github.com/user-attachments/assets/c0d6632f-e67b-45b9-afd4-d9ec78efa9c2)
+<img src="https://github.com/user-attachments/assets/c0d6632f-e67b-45b9-afd4-d9ec78efa9c2" alt="App Screenshot" style="border: 3px solid grey; border-radius: 4px;" width="600" />
 
 
 ### FEATURES
